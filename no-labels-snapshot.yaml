@@ -1,0 +1,57 @@
+resolver: lts-7.16
+
+packages:
+- haskell-gi-0.20
+- haskell-gi-base-0.20
+- gi-atk-2.0.11
+- gi-gtk-3.0.11
+- gi-cairo-1.0.11
+- gi-gdk-3.0.11
+- gi-gdkpixbuf-2.0.11
+- gi-gio-2.0.11
+- gi-glib-2.0.11
+- gi-gobject-2.0.11
+- gi-pango-1.0.11
+
+
+flags:
+  gi-gtk:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-atk:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-cairo:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-gdk:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-gdkpixbuf:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-gio:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-glib:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-gobject:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-gtk:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
+  gi-pango:
+    overloaded-methods: false
+    overloaded-signals: false
+    overloaded-properties: false
